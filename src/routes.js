@@ -4,16 +4,15 @@ const routes = [
   {
     path: "/",
     component: lazy(() => import("pages/catalogues")),
-    // component: lazy(() => import("pages/notFound")),
+  },
+  {
+    path: "/contact-us",
+    component: lazy(() => import("pages/contactus")),
   },
   {
     path: "/*",
     component: lazy(() => import("pages/notFound")),
   }
-  // {
-  //   path: "/:slug",
-  //   component: lazy(() => import("pages/catalogues")),
-  // },
 ];
 
 export default routes;
