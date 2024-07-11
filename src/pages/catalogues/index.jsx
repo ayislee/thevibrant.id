@@ -69,9 +69,11 @@ export default function Catalogues() {
                 <meta property="og:url" content={window.location.href} />
             </Helmet>
             <div className=" mx-auto max-w-2xl pt-3">
+                
                 <div className="banner">
                     <img className="rounded-xl shadow" src={imgBanner} />
                 </div>
+                <Carousel images={events} interval={5000} />
                 <div className="mt-3 mb-3">
                     <div className="font-bold text-center">Welcome to Vibrant Indonesia, where protection meets vitality!</div>
                     <div className="mt-3">We are a forward thinking community of insurance professionals and enthusiasts dedicated to revolutionizing the insurance landscape. We believe insurance isn't just about mitigating risk - it's about life's vibrancy and ensuring a secure future for all</div>
@@ -114,7 +116,7 @@ export default function Catalogues() {
                         <div className="w-[50%]">Youtube</div>
                     </div>
 
-                    <Carousel images={events} interval={5000} />
+                    
 
                     <div className="flex justify-wrap items-center gap-3 p-1 border rounded-full shadow mb-10 hover:cursor-pointer"
                         onClick={() => {
