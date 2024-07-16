@@ -75,10 +75,11 @@ export default function Catalogues() {
                 </div>
                 <Carousel images={events} interval={5000} />
                 <div className="mt-3 mb-3">
-                    <div className="font-bold text-center">Welcome to Vibrant Indonesia, where protection meets vitality!</div>
-                    <div className="mt-3">We are a forward thinking community of insurance professionals and enthusiasts dedicated to revolutionizing the insurance landscape. We believe insurance isn't just about mitigating risk - it's about life's vibrancy and ensuring a secure future for all</div>
-                    <div className="mt-3">Our mission is to redefine the insurance experience by fostering innovation, collaboration, and customer-centric solutions. We aim to create a vibrant ecosystem where insurance professionals, clients and industry experts come together to exchange ideas, drive positive change, and elevate the standards of excellence in the insurance sector.</div>
-                    <div className="mt-3">Ready to be part of the future of insurance? <br />Become people of Vibrant and unlock opportunities for growth, collaboration and success in our vibrant community!</div>
+                    <div className="font-bold text-center text-2xl md:text-3xl">Welcome to Vibrant Indonesia, </div>
+                    <div className="font-bold text-center text-2xl md:text-3xl">where protection meets vitality!</div>
+                    <div className="mt-3 text-center">We are a forward thinking community of insurance professionals and enthusiasts dedicated to revolutionizing the insurance landscape. We believe insurance isn't just about mitigating risk - it's about life's vibrancy and ensuring a secure future for all</div>
+                    <div className="mt-3 text-center">Our mission is to redefine the insurance experience by fostering innovation, collaboration, and customer-centric solutions. We aim to create a vibrant ecosystem where insurance professionals, clients and industry experts come together to exchange ideas, drive positive change, and elevate the standards of excellence in the insurance sector.</div>
+                    <div className="mt-3 text-center">Ready to be part of the future of insurance? <br />Become people of Vibrant and unlock opportunities for growth, collaboration and success in our vibrant community!</div>
                 </div>
 
                 <Carousel images={carousel01} interval={5000} />
